@@ -12,7 +12,7 @@ class SplashScreen extends Component {
 
     componentDidMount() {
         setTimeout(() => {
-            Actions.transaction_screen()
+            Actions.tab()
         }, 1000)
     }
 
